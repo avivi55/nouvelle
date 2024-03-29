@@ -1,0 +1,50 @@
+\ProvidesPackage{nouvelle}
+
+\usepackage{arev}
+\usepackage{tgothic}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{epigraph}
+\usepackage{lipsum}
+\usepackage{import}
+
+\graphicspath{ {./img/} }
+
+\usepackage[french]{babel}
+\selectlanguage{french}
+
+
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    bottom=30mm,
+    top=30mm
+}
+
+\renewcommand{\maketitle}{%
+    \begin{titlepage}
+        \begin{center}
+            \begin{multicols}{2}
+                \begin{flushleft}
+                    {\large Jacques Soghomonyan\\[3mm]Promo 2026}
+                \end{flushleft}
+                \columnbreak
+                \begin{flushright}
+                    \includegraphics[scale=0.3]{logo_efrei.png}
+                \end{flushright}
+            \end{multicols}\vspace{2.5cm}
+            {\fontsize{40}{0}\selectfont \tgothfamily Der fuchs}\\
+            {\large \textit{Le renard}}\\[5mm]
+            {\Large Et si j'étais un écrivain ?}
+            \vfill
+            \includegraphics[scale=0.55]{Berliner_Polizei.pdf}
+            \vfill
+            {\large Département Sciences Humaines et Communication}\\
+            {\large M.Cardi}
+        \end{center}
+    \end{titlepage}
+}
