@@ -1,0 +1,2 @@
+{"rule":"PLACE_DE_LA_VIRGULE","sentence":"^\\QUne ambiance lourde c'était emparée de la pièce, la lumière orangée des réverbères les illuminait\\E$"}
+{"rule":"PLACE_DE_LA_VIRGULE","sentence":"^\\QUne ambiance lourde c'était emparée de la pièce, la lumière orangée des réverbères les illuminait.\\E$"}
